@@ -1,4 +1,3 @@
 # VIDEO-TRANSCRIPT-USING-WHISPER-MODEL
 NEW
 
-git add C:\Users\Tech\Downloads\VIDEO-TRANSCRIPT (2).mp4
