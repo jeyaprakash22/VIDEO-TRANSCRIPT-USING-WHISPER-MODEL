@@ -2,6 +2,10 @@
 
 # Transcript Model for Match Commentary
 
+## DEMO
+
+https://github.com/Karthick-ng/PROJECT-3-POWERBI-TABLEAU/blob/51fef499803c8afed84150d7742b6ac55dccbae0/1.POWERBI/DEMO_VIRAT.mp4
+
 ## Overview
 The Transcript Model is designed to convert spoken words (match commentary) into text with precise timestamps. The model integrates the Whisper model, an automatic speech recognition (ASR) system, to transcribe commentary in real-time.
 
