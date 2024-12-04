@@ -15,7 +15,7 @@ https://github.com/user-attachments/assets/e045d12b-1785-48f2-aec4-fbce196a0c0c
   * Whisper Model Integration: Utilizes the Whisper model for transcription, ensuring high-quality, multi-language support.
   * Customizable Keyword Detection: Provides a mechanism to add custom keywords for each match, which can be dynamically detected from the transcription.
 ## 2. System Architecture
-The system is built on a Python-based pipeline using the following technologies:
+The system is built on a **Flask Python** based pipeline using the following technologies:
 
   * Whisper: An automatic speech recognition (ASR) model by OpenAI that transcribes audio into text.
   * Pydub: A Python library for audio file manipulation, used for converting video streams into audio.
@@ -42,6 +42,10 @@ The system is built on a Python-based pipeline using the following technologies:
 ### (v). Data Storage and Review
   * The transcriptions and detected keywords are stored in a MySQL database. This allows for easy retrieval and analysis. Each match is linked to its transcription and the keywords detected during commentary.
   * Users can query specific matches and review the transcription for keyword highlights.
+### (vi). Software Used
+  * Flask: Used for developing the backend of the system, handling the HTTP requests and API interactions.
+  * Python: The primary programming language used to process the data, interact with the Mistral 7b GenAI API, and handle the commentary generation.
+  * HTML, CSS, JavaScript: Used for building the frontend user interface to display live commentary and match updates on web and mobile platforms.
 ## 4. Workflow Overview
   * Fetch Audio Stream: The model starts by accessing the live-stream match's audio data. This could be a video file or a live stream URL.
   * Audio Conversion: The audio is converted into a suitable format using Pydub (if necessary).
